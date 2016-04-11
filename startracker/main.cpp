@@ -6,10 +6,19 @@
 //  Copyright © 2016 Carlos Granados. All rights reserved.
 //
 
-#include <iostream>
+#include "header.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    using namespace strtckr;
+    
+    StarVision * visionProcessor = ServiceProvider::makeStarVision();
+    vector <StarTriad> triads;
+    
+    // Set location of image
+    triads = visionProcessor->loadFile("/Users/cgranados/Code/startracker/media/summertriangle.jpg")->getTriads();
+    
+    cout << "Found " << triads.size() << " triads in current view";
+    
     return 0;
 }
