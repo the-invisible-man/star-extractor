@@ -20,6 +20,6 @@ The star extraction is done through blob analysis using OpenCV. Given an image f
 
 The number star triads is determined by the following:
 
-![combinations][http://www.mathwords.com/b/b_assets/binomial%20coefficient%20formula.gif]
+![alt text](http://www.mathwords.com/b/b_assets/binomial%20coefficient%20formula.gif "Combinations")
 
 Where r = 3 and n is the total number of stars found. A *threshhold* is defaulted to 25 stars per frame as this yields 2300 combinations of stars. More than enough to find a match in our dataset.
