@@ -1,6 +1,6 @@
 # Star Extractor
 
-This utility is a module for a Nanosatellite star tracker. A Star Tracker aims to provide the satellite with its attitude in Euclidean at a low cost, significantly lower than traditional star tracker used on larger satellites. This module determines the possible combinations of star triads given an image file.
+This utility is a module for a Nanosatellite star tracker. A Star Tracker aims to provide the satellite with its attitude in Euclidean space at a low cost, significantly lower than traditional star trackers used on larger satellites. This module determines the possible combinations of star triads given an image file.
 
 ## Dependencies
 
